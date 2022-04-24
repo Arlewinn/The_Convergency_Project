@@ -1,0 +1,23 @@
+--------------------
+Package Information
+
+Frame Size:
+- Original = 16x20
+- 2x = 32x40
+- 3x = 48x60
+
+Sprites Folder (Original & RPG Maker): Contains 19 sprites split by the following categories:
+- Bat
+- Bee
+- Bird
+- Bug (2 Sprites)
+- Cockatrice
+- Deer (2 Sprites)
+- Fox (2 Sprites)
+- Lizard
+- Raccoon
+- Slime
+- Snail
+- Snake
+- Spider (3 Sprites)
+- Ground Worm

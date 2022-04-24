@@ -1,0 +1,22 @@
+--------------------
+Package Information
+
+Battlers folders (Original & 2X/3X) contains 19 sprites split by the following categories:
+- Bat
+- Hornet
+- Hawk
+- Bug (with 1 variation)
+- Cockatrice
+- Deer
+- Fire Deer
+- Spirit Fox
+- Fox
+- Bloom Lizard
+- Raccoon
+- Slime
+- Snail
+- Snake
+- Spider (Small)
+- Spider
+- Spider (Monstrous)
+- Ground Worm
