@@ -25,7 +25,7 @@ else if (sprint_key == 1)
 	}
 else 
 	{
-	move_spd = 9
+	move_spd = 1
 	sprite_set_speed(sprite_index, 4, spritespeed_framespersecond);
 	}
 
