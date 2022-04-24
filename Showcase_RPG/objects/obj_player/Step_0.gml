@@ -20,7 +20,7 @@ if (instance_exists(obj_pauser))
 	}
 else if (sprint_key == 1)
 	{
-	move_spd = 3
+	move_spd = 2
 	sprite_set_speed(sprite_index, 8, spritespeed_framespersecond);
 	}
 else 
