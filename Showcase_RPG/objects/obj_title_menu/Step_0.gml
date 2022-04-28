@@ -21,7 +21,7 @@ if acc_key {
 			switch(pos){
 			//start game
 			case 0:
-				if room == rm_title_test {room_goto(rm_labratory)};
+				if room == rm_title_test {room_goto(rm_dungeon_b1)};
 				else {instance_destroy()};
 				break;
 			//settings

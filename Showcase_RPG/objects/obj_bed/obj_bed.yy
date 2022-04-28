@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_overworld_block",
-    "path": "objects/obj_overworld_block/obj_overworld_block.yy",
+    "name": "obj_testWall",
+    "path": "objects/obj_testWall/obj_testWall.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
