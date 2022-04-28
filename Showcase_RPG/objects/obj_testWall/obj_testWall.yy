@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "baseObjects",
+    "path": "folders/Objects/baseObjects.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_testWall",

@@ -20,7 +20,7 @@ if (instance_exists(obj_pauser))
 	}
 else if (sprint_key == 1)
 	{
-	move_spd = 2
+	move_spd = 2.5
 	sprite_set_speed(sprite_index, 8, spritespeed_framespersecond);
 	}
 else 
@@ -62,6 +62,7 @@ if place_meeting(x, y + yspd, obj_testWall) == true
 	{
 	yspd = 0;
 	}
+	
 
 x += xspd;
 y += yspd;

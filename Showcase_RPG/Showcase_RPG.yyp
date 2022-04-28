@@ -1,25 +1,54 @@
 {
   "resources": [
     {"id":{"name":"rm_dungeon_b2","path":"rooms/rm_dungeon_b2/rm_dungeon_b2.yy",},"order":1,},
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+    {"id":{"name":"spr_SciFi_Armory","path":"sprites/spr_SciFi_Armory/spr_SciFi_Armory.yy",},"order":1,},
+    {"id":{"name":"spr_transition","path":"sprites/spr_transition/spr_transition.yy",},"order":5,},
+    {"id":{"name":"obj_bed","path":"objects/obj_bed/obj_bed.yy",},"order":1,},
+    {"id":{"name":"obj_testWall","path":"objects/obj_testWall/obj_testWall.yy",},"order":2,},
+=======
+>>>>>>> Stashed changes
     {"id":{"name":"spr_transition","path":"sprites/spr_transition/spr_transition.yy",},"order":5,},
     {"id":{"name":"obj_bed","path":"objects/obj_bed/obj_bed.yy",},"order":2,},
     {"id":{"name":"obj_testWall","path":"objects/obj_testWall/obj_testWall.yy",},"order":1,},
+>>>>>>> e644ade4c6a5301c67c1d534e7dcda559d6ba9a3
     {"id":{"name":"spr_bed","path":"sprites/spr_bed/spr_bed.yy",},"order":0,},
-    {"id":{"name":"obj_wall_torch","path":"objects/obj_wall_torch/obj_wall_torch.yy",},"order":4,},
+    {"id":{"name":"spr_lab_door_top_closed","path":"sprites/spr_lab_door_top_closed/spr_lab_door_top_closed.yy",},"order":0,},
+    {"id":{"name":"obj_wall_torch","path":"objects/obj_wall_torch/obj_wall_torch.yy",},"order":3,},
+    {"id":{"name":"obj_SciFi_locker","path":"objects/obj_SciFi_locker/obj_SciFi_locker.yy",},"order":14,},
     {"id":{"name":"spr_lab_tileset","path":"sprites/spr_lab_tileset/spr_lab_tileset.yy",},"order":2,},
+    {"id":{"name":"spr_SciFi_Deco_1","path":"sprites/spr_SciFi_Deco_1/spr_SciFi_Deco_1.yy",},"order":2,},
     {"id":{"name":"raou_dungeon_tileset","path":"sprites/raou_dungeon_tileset/raou_dungeon_tileset.yy",},"order":0,},
-    {"id":{"name":"obj_stair_down","path":"objects/obj_stair_down/obj_stair_down.yy",},"order":3,},
+    {"id":{"name":"obj_stair_down","path":"objects/obj_stair_down/obj_stair_down.yy",},"order":2,},
+    {"id":{"name":"obj_overworld_block","path":"objects/obj_overworld_block/obj_overworld_block.yy",},"order":3,},
+    {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"order":4,},
     {"id":{"name":"spr_prince_up","path":"sprites/spr_prince_up/spr_prince_up.yy",},"order":4,},
     {"id":{"name":"spr_lab_tileset_walls","path":"sprites/spr_lab_tileset_walls/spr_lab_tileset_walls.yy",},"order":3,},
+<<<<<<< HEAD
+    {"id":{"name":"obj_kale","path":"objects/obj_kale/obj_kale.yy",},"order":6,},
+    {"id":{"name":"obj_control_panel","path":"objects/obj_control_panel/obj_control_panel.yy",},"order":10,},
+    {"id":{"name":"obj_reactor_pillar","path":"objects/obj_reactor_pillar/obj_reactor_pillar.yy",},"order":7,},
+=======
     {"id":{"name":"obj_kale","path":"objects/obj_kale/obj_kale.yy",},"order":9,},
     {"id":{"name":"rm_battle","path":"rooms/rm_battle/rm_battle.yy",},"order":3,},
+<<<<<<< Updated upstream
+=======
+>>>>>>> e644ade4c6a5301c67c1d534e7dcda559d6ba9a3
+>>>>>>> Stashed changes
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
+    {"id":{"name":"obj_reactor_pillars","path":"objects/obj_reactor_pillars/obj_reactor_pillars.yy",},"order":8,},
     {"id":{"name":"spr_kale","path":"sprites/spr_kale/spr_kale.yy",},"order":4,},
     {"id":{"name":"spr_stair_down","path":"sprites/spr_stair_down/spr_stair_down.yy",},"order":1,},
     {"id":{"name":"spr_gentle_forest_tileset","path":"sprites/spr_gentle_forest_tileset/spr_gentle_forest_tileset.yy",},"order":4,},
     {"id":{"name":"scr_macros","path":"scripts/scr_macros/scr_macros.yy",},"order":0,},
+    {"id":{"name":"obj_lab_door_top","path":"objects/obj_lab_door_top/obj_lab_door_top.yy",},"order":13,},
+    {"id":{"name":"spr_control_panel","path":"sprites/spr_control_panel/spr_control_panel.yy",},"order":8,},
     {"id":{"name":"spr_prince","path":"sprites/spr_prince/spr_prince.yy",},"order":0,},
+    {"id":{"name":"spr_reactor_pillar","path":"sprites/spr_reactor_pillar/spr_reactor_pillar.yy",},"order":5,},
     {"id":{"name":"font_default","path":"fonts/font_default/font_default.yy",},"order":0,},
+    {"id":{"name":"spr_SciFi_locker","path":"sprites/spr_SciFi_locker/spr_SciFi_locker.yy",},"order":12,},
     {"id":{"name":"spr_prince_left","path":"sprites/spr_prince_left/spr_prince_left.yy",},"order":2,},
     {"id":{"name":"rm_labratory","path":"rooms/rm_labratory/rm_labratory.yy",},"order":2,},
     {"id":{"name":"spr_raou_interior_tileset","path":"sprites/spr_raou_interior_tileset/spr_raou_interior_tileset.yy",},"order":5,},
@@ -27,16 +56,32 @@
     {"id":{"name":"spr_player_right","path":"sprites/spr_player_right/spr_player_right.yy",},"order":2,},
     {"id":{"name":"spr_menu","path":"sprites/spr_menu/spr_menu.yy",},"order":0,},
     {"id":{"name":"ts_lab_tileset","path":"tilesets/ts_lab_tileset/ts_lab_tileset.yy",},"order":2,},
-    {"id":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"order":7,},
+    {"id":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"order":1,},
     {"id":{"name":"spr_wall_torch","path":"sprites/spr_wall_torch/spr_wall_torch.yy",},"order":2,},
+<<<<<<< HEAD
+    {"id":{"name":"obj_stairs","path":"objects/obj_stairs/obj_stairs.yy",},"order":4,},
+    {"id":{"name":"spr_testWall","path":"sprites/spr_testWall/spr_testWall.yy",},"order":0,},
+    {"id":{"name":"spr_sciFi_Computers_2","path":"sprites/spr_sciFi_Computers_2/spr_sciFi_Computers_2.yy",},"order":0,},
+=======
     {"id":{"name":"obj_stairs","path":"objects/obj_stairs/obj_stairs.yy",},"order":6,},
     {"id":{"name":"Sprite24","path":"sprites/Sprite24/Sprite24.yy",},"order":5,},
     {"id":{"name":"spr_testWall","path":"sprites/spr_testWall/spr_testWall.yy",},"order":0,},
+<<<<<<< Updated upstream
+=======
+>>>>>>> e644ade4c6a5301c67c1d534e7dcda559d6ba9a3
+>>>>>>> Stashed changes
     {"id":{"name":"spr_prince_down","path":"sprites/spr_prince_down/spr_prince_down.yy",},"order":1,},
+    {"id":{"name":"spr_lab_door_closed","path":"sprites/spr_lab_door_closed/spr_lab_door_closed.yy",},"order":0,},
+    {"id":{"name":"spr_SciFi_Deco_2","path":"sprites/spr_SciFi_Deco_2/spr_SciFi_Deco_2.yy",},"order":3,},
+    {"id":{"name":"obj_card_reader","path":"objects/obj_card_reader/obj_card_reader.yy",},"order":11,},
     {"id":{"name":"spr_stairs","path":"sprites/spr_stairs/spr_stairs.yy",},"order":3,},
     {"id":{"name":"spr_player_left","path":"sprites/spr_player_left/spr_player_left.yy",},"order":1,},
+    {"id":{"name":"spr_card_reader","path":"sprites/spr_card_reader/spr_card_reader.yy",},"order":9,},
     {"id":{"name":"rm_title_test","path":"rooms/rm_title_test/rm_title_test.yy",},"order":2,},
-    {"id":{"name":"obj_pauser","path":"objects/obj_pauser/obj_pauser.yy",},"order":8,},
+    {"id":{"name":"spr_lab_door_open","path":"sprites/spr_lab_door_open/spr_lab_door_open.yy",},"order":1,},
+    {"id":{"name":"obj_pauser","path":"objects/obj_pauser/obj_pauser.yy",},"order":5,},
+    {"id":{"name":"spr_reactor_pillars","path":"sprites/spr_reactor_pillars/spr_reactor_pillars.yy",},"order":6,},
+    {"id":{"name":"spr_SciFi_Deco_3","path":"sprites/spr_SciFi_Deco_3/spr_SciFi_Deco_3.yy",},"order":4,},
     {"id":{"name":"spr_player_down","path":"sprites/spr_player_down/spr_player_down.yy",},"order":0,},
     {"id":{"name":"ts_raou_interior","path":"tilesets/ts_raou_interior/ts_raou_interior.yy",},"order":3,},
     {"id":{"name":"spr_test_enemy_overworld","path":"sprites/spr_test_enemy_overworld/spr_test_enemy_overworld.yy",},"order":2,},
@@ -45,9 +90,20 @@
     {"id":{"name":"obj_title_menu","path":"objects/obj_title_menu/obj_title_menu.yy",},"order":1,},
     {"id":{"name":"spr_player_up","path":"sprites/spr_player_up/spr_player_up.yy",},"order":3,},
     {"id":{"name":"ts_test_tiles","path":"tilesets/ts_test_tiles/ts_test_tiles.yy",},"order":0,},
+    {"id":{"name":"spr_timer","path":"sprites/spr_timer/spr_timer.yy",},"order":6,},
+    {"id":{"name":"obj_timer","path":"objects/obj_timer/obj_timer.yy",},"order":6,},
     {"id":{"name":"spr_test_tiles","path":"sprites/spr_test_tiles/spr_test_tiles.yy",},"order":1,},
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+    {"id":{"name":"obj_lab_door","path":"objects/obj_lab_door/obj_lab_door.yy",},"order":12,},
+    {"id":{"name":"spr_warp_block","path":"sprites/spr_warp_block/spr_warp_block.yy",},"order":4,},
+    {"id":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"order":0,},
+=======
+>>>>>>> Stashed changes
     {"id":{"name":"spr_warp_block","path":"sprites/spr_warp_block/spr_warp_block.yy",},"order":4,},
     {"id":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"order":5,},
+>>>>>>> e644ade4c6a5301c67c1d534e7dcda559d6ba9a3
     {"id":{"name":"rm_dungeon_b1","path":"rooms/rm_dungeon_b1/rm_dungeon_b1.yy",},"order":0,},
   ],
   "Options": [
@@ -89,6 +145,10 @@
     {"folderPath":"folders/Sprites/tile_sprites.yy","order":2,"resourceVersion":"1.0","name":"tile_sprites","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/items.yy","order":3,"resourceVersion":"1.0","name":"items","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Menu System.yy","order":15,"resourceVersion":"1.0","name":"Menu System","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/baseObjects.yy","order":9,"resourceVersion":"1.0","name":"baseObjects","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/items/item_sets.yy","order":7,"resourceVersion":"1.0","name":"item_sets","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/items/spr_lab_door.yy","order":11,"resourceVersion":"1.0","name":"spr_lab_door","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/items/spr_lab_door_top.yy","order":10,"resourceVersion":"1.0","name":"spr_lab_door_top","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
@@ -98,7 +158,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.3.0.624",
+    "IDEVersion": "2022.3.0.625",
   },
   "resourceVersion": "1.5",
   "name": "Showcase_RPG",
