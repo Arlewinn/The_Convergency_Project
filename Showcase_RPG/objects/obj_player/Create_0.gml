@@ -11,3 +11,5 @@ sprite[DOWN] = spr_prince_down;
 face = DOWN;
 
 frozen = false;
+
+steps = 1000;
