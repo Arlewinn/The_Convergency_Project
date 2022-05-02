@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_card_reader",
-    "path": "sprites/spr_card_reader/spr_card_reader.yy",
+    "name": "spr_bookshelf_1",
+    "path": "sprites/spr_bookshelf_1/spr_bookshelf_1.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_testWall",
+    "path": "objects/obj_testWall/obj_testWall.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -20,10 +23,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":32,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_card_reader",
+  "name": "obj_bookshelf_1",
   "tags": [],
   "resourceType": "GMObject",
 }

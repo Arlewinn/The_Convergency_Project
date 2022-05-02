@@ -1,0 +1,2 @@
+obtained = false;
+name = "Funyarinpa";

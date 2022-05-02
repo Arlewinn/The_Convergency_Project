@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "spr_card_reader",
-    "path": "sprites/spr_card_reader/spr_card_reader.yy",
+    "name": "spr_item_block",
+    "path": "sprites/spr_item_block/spr_item_block.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -27,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "baseObjects",
+    "path": "folders/Objects/baseObjects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_card_reader",
+  "name": "obj_item_block",
   "tags": [],
   "resourceType": "GMObject",
 }
