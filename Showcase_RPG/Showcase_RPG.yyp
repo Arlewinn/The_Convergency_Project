@@ -76,7 +76,7 @@
     {"id":{"name":"obj_power_crystal","path":"objects/obj_power_crystal/obj_power_crystal.yy",},"order":15,},
     {"id":{"name":"spr_SciFi_Deco_2","path":"sprites/spr_SciFi_Deco_2/spr_SciFi_Deco_2.yy",},"order":3,},
     {"id":{"name":"obj_kitchen","path":"objects/obj_kitchen/obj_kitchen.yy",},"order":18,},
-    {"id":{"name":"rm_","path":"rooms/rm_/rm_.yy",},"order":4,},
+    {"id":{"name":"rm_dungeon_b2","path":"rooms/rm_dungeon_b2/rm_dungeon_b2.yy",},"order":4,},
     {"id":{"name":"obj_card_reader","path":"objects/obj_card_reader/obj_card_reader.yy",},"order":11,},
     {"id":{"name":"obj_inventory_item","path":"objects/obj_inventory_item/obj_inventory_item.yy",},"order":7,},
     {"id":{"name":"spr_stairs","path":"sprites/spr_stairs/spr_stairs.yy",},"order":3,},
@@ -128,7 +128,7 @@
     {"roomId":{"name":"rm_labratory","path":"rooms/rm_labratory/rm_labratory.yy",},},
     {"roomId":{"name":"rm_dungeon_b1","path":"rooms/rm_dungeon_b1/rm_dungeon_b1.yy",},},
     {"roomId":{"name":"rm_battle","path":"rooms/rm_battle/rm_battle.yy",},},
-    {"roomId":{"name":"rm_","path":"rooms/rm_/rm_.yy",},},
+    {"roomId":{"name":"rm_dungeon_b2","path":"rooms/rm_dungeon_b2/rm_dungeon_b2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
