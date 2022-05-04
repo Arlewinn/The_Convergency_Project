@@ -1,2 +1,2 @@
-myKey = obj_masterKey;
+myKey = "Bedroom Key";
 targetDoor_ID = 1;

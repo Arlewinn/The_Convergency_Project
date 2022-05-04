@@ -1,1 +1,1 @@
-item = obj_inventory_item;
+item = "Funyarinpa";

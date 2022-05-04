@@ -1,2 +1,2 @@
-myKey = obj_masterKey;
+myKey = "Command Center Key";
 targetDoor_ID = 2;

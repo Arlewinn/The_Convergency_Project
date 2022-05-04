@@ -10,6 +10,9 @@ sprite[DOWN] = spr_prince_down;
 
 face = DOWN;
 
-frozen = false;
+//frozen = false;
 
 steps = 1000;
+
+//initialize inventory
+inventory = ["Bathroom_Key"];

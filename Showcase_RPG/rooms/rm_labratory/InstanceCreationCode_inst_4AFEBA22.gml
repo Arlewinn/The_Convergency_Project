@@ -1,1 +1,1 @@
-item = obj_masterKey;
+item = "Bedroom Key";
