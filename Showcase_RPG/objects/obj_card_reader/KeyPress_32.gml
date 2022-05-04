@@ -22,14 +22,15 @@ if (place_meeting(x + 10, y, obj_player)) || (place_meeting(x - 10, y, obj_playe
 					locked = true;
 				}
 			}
+			else if (door_ID == other.targetDoor_ID) && hasKey == false {show_debug_message("*Buzzer* keycard not accepted");}
 		}
 	}
 	
-else if (place_meeting(x + 10, y, obj_player)) || (place_meeting(x - 10, y, obj_player)) || (place_meeting(x, y + 10, obj_player)) || (place_meeting(x, y - 10, obj_player))
+/*else if (place_meeting(x + 10, y, obj_player)) || (place_meeting(x - 10, y, obj_player)) || (place_meeting(x, y + 10, obj_player)) || (place_meeting(x, y - 10, obj_player))
 	{
 		show_debug_message("*Buzzer* keycard not accepted");
 	}
-/*else if place_meeting(x - 10, y, obj_player) && myKey.obtained
+else if place_meeting(x - 10, y, obj_player) && myKey.obtained
 	{
 		with(obj_lab_door){
 			if(door_ID == other.targetDoor_ID)

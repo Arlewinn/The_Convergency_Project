@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_fridge",
-    "path": "sprites/spr_fridge/spr_fridge.yy",
+    "name": "spr_lab_sign",
+    "path": "sprites/spr_lab_sign/spr_lab_sign.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,9 +23,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":4,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -33,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_fridge",
+  "name": "obj_labSign",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,2 +1,2 @@
 myKey = "Key";
-targetDoor_ID = 0;
+targetDoor_ID = -1;

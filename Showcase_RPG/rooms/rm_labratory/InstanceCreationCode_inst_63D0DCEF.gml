@@ -1,3 +1,3 @@
 hasItem = true;
 keyItem = "Screwdriver";
-item = "Command Center Key";
+item = "Reactor Key";

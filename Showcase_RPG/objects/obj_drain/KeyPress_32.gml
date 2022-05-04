@@ -10,6 +10,7 @@ if (place_meeting(x + radius, y, obj_player)) || (place_meeting(x - radius, y, o
 		{
 			show_debug_message("You unscreweed the drain and pulled out a  " + item);
 			array_push(obj_player.inventory, item);
+			hasItem = false;
 		}
 	else if (hasItem == true && hasKey == false) {show_debug_message("You can see something stuck in the drain.")}
 	}
