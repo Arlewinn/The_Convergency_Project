@@ -14,5 +14,7 @@ face = DOWN;
 
 steps = 1000;
 
+checkpoint = 0;
+
 //initialize inventory
 inventory = ["Bathroom_Key"];
