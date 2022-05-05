@@ -68,7 +68,7 @@ x += xspd;
 y += yspd;
 
 var rng = irandom(steps);
-if (rng = steps && steps < 800 && !instance_exists(obj_warp) && room != rm_labratory && room != rm_battle) {
+/*if (rng = steps && steps < 800 && !instance_exists(obj_warp) && room != rm_labratory && room != rm_battle) {
 	
 	var inst = instance_create_depth(0, 0, -999, obj_warp);
 	inst.target_x = x;
@@ -78,7 +78,7 @@ if (rng = steps && steps < 800 && !instance_exists(obj_warp) && room != rm_labra
 	steps = 1000;
 } else {
 	steps -= 1;
-}
+}*/
 //animeate
 if xspd == 0 && yspd == 0
 	{

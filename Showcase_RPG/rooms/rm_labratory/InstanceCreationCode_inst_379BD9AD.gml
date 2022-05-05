@@ -1,0 +1,1 @@
+if (obj_player.checkpoint >= 2) {image_index = 1}

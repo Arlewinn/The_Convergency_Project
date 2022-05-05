@@ -43,6 +43,7 @@
     {"id":{"name":"spr_control_panel","path":"sprites/spr_control_panel/spr_control_panel.yy",},"order":8,},
     {"id":{"name":"spr_prince","path":"sprites/spr_prince/spr_prince.yy",},"order":0,},
     {"id":{"name":"spr_reactor_pillar","path":"sprites/spr_reactor_pillar/spr_reactor_pillar.yy",},"order":5,},
+    {"id":{"name":"rm_storage_room","path":"rooms/rm_storage_room/rm_storage_room.yy",},"order":5,},
     {"id":{"name":"spr_crate","path":"sprites/spr_crate/spr_crate.yy",},"order":29,},
     {"id":{"name":"spr_kitchen","path":"sprites/spr_kitchen/spr_kitchen.yy",},"order":16,},
     {"id":{"name":"obj_large_table","path":"objects/obj_large_table/obj_large_table.yy",},"order":30,},
@@ -126,9 +127,10 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_title_test","path":"rooms/rm_title_test/rm_title_test.yy",},},
     {"roomId":{"name":"rm_labratory","path":"rooms/rm_labratory/rm_labratory.yy",},},
+    {"roomId":{"name":"rm_storage_room","path":"rooms/rm_storage_room/rm_storage_room.yy",},},
     {"roomId":{"name":"rm_dungeon_b1","path":"rooms/rm_dungeon_b1/rm_dungeon_b1.yy",},},
-    {"roomId":{"name":"rm_battle","path":"rooms/rm_battle/rm_battle.yy",},},
     {"roomId":{"name":"rm_dungeon_b2","path":"rooms/rm_dungeon_b2/rm_dungeon_b2.yy",},},
+    {"roomId":{"name":"rm_battle","path":"rooms/rm_battle/rm_battle.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
