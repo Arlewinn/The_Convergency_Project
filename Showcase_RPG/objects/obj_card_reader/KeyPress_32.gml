@@ -9,20 +9,20 @@ if (place_meeting(x + 10, y, obj_player)) || (place_meeting(x - 10, y, obj_playe
 			if playerInventory[i] == myKey {hasKey = true}
 		}
 		with(obj_door){
-			if(door_ID == other.targetDoor_ID) && hasKey{
+			if(door_ID == other.targetDoor_ID) && hasKey && obj_player.frozen = false{
 				//show_debug_message("hooii");
 				if (locked == true)
 				{
-					show_debug_message("Beep beep, door unlocked");
+					display_message(["*BEEP BOOP* you unlocked the door."]);
 					locked = false;
 				}
 				else 
 				{
-					show_debug_message("Beep beep, door locked");
+					display_message(["*BEEP BOOP* you locked the door."]);
 					locked = true;
 				}
 			}
-			else if (door_ID == other.targetDoor_ID) && hasKey == false {show_debug_message("*Buzzer* keycard not accepted");}
+			else if (door_ID == other.targetDoor_ID) && hasKey == false {display_message(["*BUZZER* keycard not accepted."]);}
 		}
 	}
 	

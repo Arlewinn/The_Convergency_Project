@@ -1,7 +1,7 @@
 
 if (place_meeting(x + radius, y, obj_player)) || (place_meeting(x - radius, y, obj_player)) || (place_meeting(x, y + radius, obj_player)) || (place_meeting(x, y - radius, obj_player) )
 	{
-		show_debug_message("You got " + item);
+		display_message(["You got " + item]);
 		array_push(obj_player.inventory, item);
 		instance_destroy();
 		//show_debug_message(obj_player.inventory);

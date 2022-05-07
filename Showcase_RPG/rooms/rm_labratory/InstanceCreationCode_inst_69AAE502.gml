@@ -1,1 +1,1 @@
-text = "Cafeteria"
+text = ["Cafeteria"]
