@@ -1,1 +1,1 @@
-text = ["Wow that's a lot of kale..."];
+//text = ["Wow that's a lot of kale..."];

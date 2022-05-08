@@ -2,7 +2,7 @@ var hasKey = false;
 var playerInventory = obj_player.inventory;
 
 
-if (place_meeting(x + 10, y, obj_player)) || (place_meeting(x - 10, y, obj_player)) || (place_meeting(x, y + 10, obj_player)) || (place_meeting(x, y - 10, obj_player))
+if (place_meeting(x + radius, y, obj_player)) || (place_meeting(x - radius, y, obj_player)) || (place_meeting(x, y + radius, obj_player)) || (place_meeting(x, y - radius, obj_player))
 	{
 		for (i=0; i < array_length(playerInventory); i++)
 		{
@@ -13,16 +13,16 @@ if (place_meeting(x + 10, y, obj_player)) || (place_meeting(x - 10, y, obj_playe
 				//show_debug_message("hooii");
 				if (locked == true)
 				{
-					display_message(["*BEEP BOOP* you unlocked the door."]);
+					display_message(["*BEEP BOOP* you unlocked the door."], false);
 					locked = false;
 				}
 				else 
 				{
-					display_message(["*BEEP BOOP* you locked the door."]);
+					display_message(["*BEEP BOOP* you locked the door."], false);
 					locked = true;
 				}
 			}
-			else if (door_ID == other.targetDoor_ID) && hasKey == false {display_message(["*BUZZER* keycard not accepted."]);}
+			else if (door_ID == other.targetDoor_ID) && hasKey == false {display_message(["*BUZZER* keycard not accepted."], false);}
 		}
 	}
 	

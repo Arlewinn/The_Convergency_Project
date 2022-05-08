@@ -10,9 +10,7 @@ left_key = keyboard_check(vk_left);
 up_key = keyboard_check(vk_up);
 down_key = keyboard_check(vk_down);
 sprint_key = keyboard_check(vk_shift);
-menu_key = keyboard_check(vk_escape);
 
-if menu_key == 1{instance_create_depth(0,0,-999,obj_title_menu)}
 
 if (instance_exists(obj_pauser))
 	{
