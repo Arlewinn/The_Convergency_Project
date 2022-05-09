@@ -4,6 +4,7 @@ yspd = -1;
 goal_x = 0;
 goal_y = 0;
 
+
 move_spd = 1;
 
 sprite[RIGHT] = spr_monster_right;
@@ -20,3 +21,5 @@ frozen = false;
 player_near = true;
 
 blocked = false;
+
+waypoint_talley = 0;
