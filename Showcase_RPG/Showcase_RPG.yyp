@@ -110,6 +110,7 @@
     {"id":{"name":"ts_raou_interior","path":"tilesets/ts_raou_interior/ts_raou_interior.yy",},"order":3,},
     {"id":{"name":"spr_test_enemy_overworld","path":"sprites/spr_test_enemy_overworld/spr_test_enemy_overworld.yy",},"order":2,},
     {"id":{"name":"rauo_dungeon_tileset","path":"tilesets/rauo_dungeon_tileset/rauo_dungeon_tileset.yy",},"order":1,},
+    {"id":{"name":"Sprite67","path":"sprites/Sprite67/Sprite67.yy",},"order":17,},
     {"id":{"name":"spr_prince_right","path":"sprites/spr_prince_right/spr_prince_right.yy",},"order":3,},
     {"id":{"name":"scr_display_message","path":"scripts/scr_display_message/scr_display_message.yy",},"order":2,},
     {"id":{"name":"obj_title_menu","path":"objects/obj_title_menu/obj_title_menu.yy",},"order":1,},
@@ -145,12 +146,12 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_battle","path":"rooms/rm_battle/rm_battle.yy",},},
     {"roomId":{"name":"rm_storage_room","path":"rooms/rm_storage_room/rm_storage_room.yy",},},
     {"roomId":{"name":"rm_title_test","path":"rooms/rm_title_test/rm_title_test.yy",},},
     {"roomId":{"name":"rm_labratory","path":"rooms/rm_labratory/rm_labratory.yy",},},
-    {"roomId":{"name":"rm_dungeon_b1","path":"rooms/rm_dungeon_b1/rm_dungeon_b1.yy",},},
     {"roomId":{"name":"rm_dungeon_b2","path":"rooms/rm_dungeon_b2/rm_dungeon_b2.yy",},},
-    {"roomId":{"name":"rm_battle","path":"rooms/rm_battle/rm_battle.yy",},},
+    {"roomId":{"name":"rm_dungeon_b1","path":"rooms/rm_dungeon_b1/rm_dungeon_b1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

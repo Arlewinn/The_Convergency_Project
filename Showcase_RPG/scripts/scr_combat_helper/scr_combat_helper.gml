@@ -13,3 +13,13 @@ function spd_sort(list){
 		}
 	}
 }
+
+function check_for_hit(){
+	var number = random(1);
+	var unit = global.selectedUnit;
+	if (number > unit.current[@ ACCURACY]){
+		unit.attack_will_hit = true;
+	}else{
+		unit.attack_will_hit = false;
+	}
+}
