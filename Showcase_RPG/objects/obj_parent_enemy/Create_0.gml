@@ -7,7 +7,7 @@
 
 base[HP] = 10;
 base[ATK] = 2;
-base[SPD] = 1; //for random speed: irandom_range(1, 10);
+base[SPD] = irandom_range(1, 10);
 base[EXP] = 10;
 //base[DEF] = 1;
 //base[ACC] = 0.95;
