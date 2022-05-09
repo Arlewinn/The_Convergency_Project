@@ -52,11 +52,11 @@ if yspd < 0 && face == DOWN {face = UP}
 sprite_index = sprite[face];
 
 //collisions code
-if place_meeting(x + xspd, y, obj_testWall) == true
+if place_meeting(x + xspd, y, obj_testWall) || place_meeting(x + xspd, y, obj_door)
 	{
 	xspd = 0;
 	}
-if place_meeting(x, y + yspd, obj_testWall) == true
+if place_meeting(x, y + yspd, obj_testWall) || place_meeting(x, y + yspd, obj_door)
 	{
 	yspd = 0;
 	}

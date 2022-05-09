@@ -1,3 +1,3 @@
 item = "Funyarinpa";
-depth = -999;
+depth = -10;
 radius = 10;

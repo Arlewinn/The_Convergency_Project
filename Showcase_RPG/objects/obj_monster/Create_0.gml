@@ -1,5 +1,8 @@
-xspd = 0;
-yspd = 0;
+xspd = -1;
+yspd = -1;
+
+goal_x = 0;
+goal_y = 0;
 
 move_spd = 1;
 
@@ -13,3 +16,7 @@ face = DOWN;
 step_count = 0;
 
 frozen = false;
+
+player_near = true;
+
+blocked = false;
