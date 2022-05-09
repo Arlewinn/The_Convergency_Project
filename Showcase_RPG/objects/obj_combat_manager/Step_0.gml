@@ -5,7 +5,7 @@ switch(combatPhase){
 		for (var i = 0; i < instance_number(obj_combat_spawn); i++){
 			var spawner = instance_find(obj_combat_spawn, i);
 			//var unit_1 = instance_create_layer(spawner.x, spawner.y, "Instances", obj_test_enemy);
-			var unit = instance_create_depth(spawner.x, spawner.y, 0, obj_parent_enemy);
+			var unit = instance_create_depth(spawner.x, spawner.y, 0, obj_test_enemy);
 			ds_list_add(global.units, unit);
 		}
 		combatPhase = phase.startTurn;
