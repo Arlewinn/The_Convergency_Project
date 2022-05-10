@@ -11,11 +11,6 @@ if blocked
 	goal_y = waypoint.y;
 }
 
-else if blocked && xspd = 0 || blocked && yspd = 0 
-	{
-	blocked = false;
-	}
-
 else {
 	goal_x = obj_player.x;
 	goal_y = obj_player.y;
@@ -54,11 +49,11 @@ if y < goal_y {yspd = 1 * move_spd}
 if y >goal_y {yspd = -1 * move_spd}
 if y <= goal_y + 5 && y >= goal_y - 5 {yspd = 0}
 
-if place_meeting(x + xspd, y, obj_testWall) //|| place_meeting(x + xspd, y, obj_door) && blocked == false
+if place_meeting(x + xspd, y, obj_testWall) || place_meeting(x + xspd, y, obj_door) && blocked == false
 	{
 	xspd = 0;
 	}
-if place_meeting(x, y + yspd, obj_testWall) //|| place_meeting(x, y + yspd, obj_door) && blocked == false
+if place_meeting(x, y + yspd, obj_testWall) || place_meeting(x, y + yspd, obj_door) && blocked == false
 	{
 	yspd = 0;
 	}
@@ -117,7 +112,7 @@ else if xspd == 0 && yspd == 0 && blocked = true && place_meeting(x, y, obj_door
 	image_index = 0;
 	blocked = false;
 	with (obj_waypoint) {x = mem_x; y = mem_y}
-	waypoint_talley = -1;
+	waypoint_talley = 1;
 	}
 	
 //depth
