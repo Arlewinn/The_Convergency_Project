@@ -1,13 +1,21 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(global.selectedUnit.id == id){
+if(global.selectedUnit.id == id and global.targeting){
+	if(position_meeting(mouse_x, mouse_y, obj_parent_enemy)){
+		var unit = instance_position(mouse_x, mouse_y, obj_parent_enemy);
+		if(unit != global.selectedUnit){
+			global.selectedTargets = noone;
+			
+			global.selectedTargets = unit;
+		}
+	}
 	
-	for (var i=0; i<ds_list_size(global.units); i++){
+	/*for (var i=0; i<ds_list_size(global.units); i++){
 		if(global.units[|i] != global.selectedUnit){
 			global.selectedTargets = global.units[|i];
 			break;
 		}
-	}
+	}*/
 	turn_finished = true;
 	attack_will_hit = true;
 	//check_for_hit();
@@ -15,7 +23,7 @@ if(global.selectedUnit.id == id){
 	global.selectedTargets.damage_unit(global.selectedUnit.current[@ATK]);
 	
 	//damage_unit(global.selectedUnit.current[@ATK]);
-	process_finished = true;
+	obj_combat_manager.process_finished = true;
 	allow_input = false;
 }
 //if(global.selectedTargets.id == id){

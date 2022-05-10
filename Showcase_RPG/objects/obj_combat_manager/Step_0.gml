@@ -2,6 +2,9 @@
 // You can write your code in this editor
 switch(combatPhase){
 	case phase.init:
+		layer_set_visible(target_ui, false);
+		instance_deactivate_layer(target_ui);
+		layer_set_visible(battle_ui, false);
 		for (var i = 0; i < instance_number(obj_combat_spawn); i++){
 			var spawner = instance_find(obj_combat_spawn, i);
 			//var unit_1 = instance_create_layer(spawner.x, spawner.y, "Instances", obj_test_enemy);
@@ -28,7 +31,11 @@ switch(combatPhase){
 				break;
 			}
 		}
-		allow_input = true;
+		if(!allow_input){
+			allow_input = true;
+			event_user(1);
+		}
+		
 		combatPhase = phase.wait;
 	break;
 	
@@ -36,13 +43,24 @@ switch(combatPhase){
 		if(global.selectedUnit.turn_finished == true){
 			units_finished++; 
 			combatPhase = phase.process;
+			event_user(0);
+			layer_set_visible(target_ui, false);
+			instance_deactivate_layer(target_ui);
+			layer_set_visible(battle_ui, false);
+			instance_deactivate_layer(battle_ui);
 		}
 	break;
 	
 	case phase.process:
-		//if(process_finished == true){
+		if(process_finished == true){
 			combatPhase = phase.checkFinish;
-		//}
+			global.targeting = false;
+			for(var i=0; i<ds_list_size(global.units); i++){
+				with(global.units[|i]){
+					draw_target = false;
+				}
+			}
+		}
 	break;
 	
 	case phase.checkFinish:
@@ -61,6 +79,7 @@ switch(combatPhase){
 	case phase.endTurn:
 		selected_finished = false;
 		global.selectedTargets = noone;
+		ds_list_clear(global.targets);
 		combatPhase = phase.startTurn;
 	break;
 	

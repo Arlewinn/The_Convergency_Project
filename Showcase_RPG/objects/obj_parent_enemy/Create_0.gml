@@ -35,7 +35,7 @@ attack_will_hit = false;
 incoming_damage = 0;
 hp_bar_width = sprite_get_width(spr_ui_hp);
 hp_bar_height = sprite_get_height(spr_ui_hp);
-
+draw_target = false;
 function damage_unit(attack){
 	var damage = attack;
 	//var damage = attack - current[@DEF];

@@ -21,3 +21,8 @@ allow_input = false;
 global.selectedUnit = noone;
 global.units = ds_list_create();
 global.selectedTargets = noone;
+global.targeting = false;
+global.targets = ds_list_create();
+
+battle_ui = layer_get_id("BattleUI");
+target_ui = layer_get_id("TargetUI");
