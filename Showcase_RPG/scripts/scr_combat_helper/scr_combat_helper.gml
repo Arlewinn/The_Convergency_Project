@@ -23,3 +23,9 @@ function check_for_hit(){
 		unit.attack_will_hit = false;
 	}
 }
+
+function unit_attack(){
+	//if(global.selectedUnit.attack_will_hit == true){
+		process_finished = true;
+	//}
+}

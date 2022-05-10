@@ -28,6 +28,7 @@ switch(combatPhase){
 				break;
 			}
 		}
+		allow_input = true;
 		combatPhase = phase.wait;
 	break;
 	
@@ -39,10 +40,13 @@ switch(combatPhase){
 	break;
 	
 	case phase.process:
-		combatPhase = phase.checkFinish;
+		//if(process_finished == true){
+			combatPhase = phase.checkFinish;
+		//}
 	break;
 	
 	case phase.checkFinish:
+		process_finished = false;
 		//if(keyboard_check_released(vk_space)){
 			combatPhase = phase.endTurn;
 		//}
@@ -55,6 +59,8 @@ switch(combatPhase){
 	break;
 	
 	case phase.endTurn:
+		selected_finished = false;
+		global.selectedTargets = noone;
 		combatPhase = phase.startTurn;
 	break;
 	
