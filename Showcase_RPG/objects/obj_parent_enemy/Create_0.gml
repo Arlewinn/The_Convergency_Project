@@ -1,3 +1,8 @@
+#macro camera_width camera_get_view_width(view_camera[0])
+#macro camera_height camera_get_view_height(view_camera[0])
+#macro display_scale_x display_get_gui_width()
+#macro display_scale_y display_get_gui_height()
+
 #macro HP 0
 #macro ATK 1
 #macro SPD 2
@@ -28,7 +33,9 @@ target_face = 0;
 turn_finished = false;
 attack_will_hit = false;
 incoming_damage = 0;
-
+hp_bar_width = sprite_get_width(spr_ui_hp);
+hp_bar_height = sprite_get_height(spr_ui_hp);
+draw_target = false;
 function damage_unit(attack){
 	var damage = attack;
 	//var damage = attack - current[@DEF];

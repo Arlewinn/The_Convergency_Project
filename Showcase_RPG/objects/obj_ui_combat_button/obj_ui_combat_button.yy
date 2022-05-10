@@ -1,18 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_monster_down",
-    "path": "sprites/spr_monster_down/spr_monster_down.yy",
+    "name": "spr_ui_battle_button",
+    "path": "sprites/spr_ui_battle_button/spr_ui_battle_button.yy",
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": {
-    "name": "spr_targeting",
-    "path": "sprites/spr_targeting/spr_targeting.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_parent_enemy",
-    "path": "objects/obj_parent_enemy/obj_parent_enemy.yy",
+    "name": "obj_ui_parent_button",
+    "path": "objects/obj_ui_parent_button/obj_ui_parent_button.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -26,9 +23,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -36,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_test_enemy",
+  "name": "obj_ui_combat_button",
   "tags": [],
   "resourceType": "GMObject",
 }
