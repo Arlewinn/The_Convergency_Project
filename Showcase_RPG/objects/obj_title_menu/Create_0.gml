@@ -23,3 +23,6 @@ option[1, 3] = "Back";
 
 op_length = 0;
 menu_level = 0;
+
+monster_move_speed = 0;
+if instance_exists(obj_monster) {monster_move_speed = obj_monster.move_spd}

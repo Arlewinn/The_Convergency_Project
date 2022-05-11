@@ -1,4 +1,4 @@
 hasItem = false;
-keyItem = "Screwdriver";
+keyItem = "screwdriver";
 item = "Funyarinpa";
 radius = 5

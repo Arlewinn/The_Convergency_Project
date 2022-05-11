@@ -1,1 +1,2 @@
-text = "Bedroom A"
+words = ["Reactor Control Room"]
+animate_text = false;

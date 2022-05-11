@@ -2,6 +2,7 @@
 if (instance_exists(obj_pauser)){
 	move_spd = 0
 	}
+else  {move_spd = set_move_spd}
 //determines movement direction
 
 if blocked 

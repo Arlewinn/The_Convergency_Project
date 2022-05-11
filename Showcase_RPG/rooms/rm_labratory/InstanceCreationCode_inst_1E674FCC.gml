@@ -1,0 +1,1 @@
+words = ["Journal Entry: I got locked out of the command center. I can't bear to tell everyone I lost my key.", "I'll need to sneak back into the reactor to try to find it later"];

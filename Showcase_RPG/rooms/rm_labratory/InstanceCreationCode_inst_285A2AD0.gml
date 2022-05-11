@@ -1,0 +1,1 @@
+words = ["Journal Entry: Oh no I lost my screwdriver. I think I last saw it while repairing a fridge in the pantry."];

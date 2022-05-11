@@ -1,6 +1,6 @@
 x = 703;
 y = 870;
 visible = true;
-move_direction = 2;
+set_move_spd = 1;
 step_count = 1000;
 player_near = true;

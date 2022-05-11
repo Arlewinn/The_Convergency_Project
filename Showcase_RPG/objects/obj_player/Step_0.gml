@@ -21,9 +21,13 @@ else if (sprint_key == 1)
 	move_spd = 2.5
 	sprite_set_speed(sprite_index, 8, spritespeed_framespersecond);
 	}
+else if (frozen)
+	{
+	move_spd = 0;
+	}
 else 
 	{
-	move_spd = 1
+	move_spd = 1;
 	sprite_set_speed(sprite_index, 4, spritespeed_framespersecond);
 	}
 
@@ -66,7 +70,7 @@ x += xspd;
 y += yspd;
 
 var rng = irandom(steps);
-/*if (rng = steps && steps < 800 && !instance_exists(obj_warp) && room != rm_labratory && room != rm_battle) {
+if (rng = steps && steps < 800 && !instance_exists(obj_warp) && room != rm_labratory && room != rm_battle && room != rm_storage_room) {
 	
 	var inst = instance_create_depth(0, 0, -999, obj_warp);
 	inst.target_x = x;
@@ -76,7 +80,7 @@ var rng = irandom(steps);
 	steps = 1000;
 } else {
 	steps -= 1;
-}*/
+}
 //animeate
 if xspd == 0 && yspd == 0
 	{

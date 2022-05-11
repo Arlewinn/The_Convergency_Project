@@ -1,1 +1,2 @@
-text = ["Bedroom A"]
+words = ["Research Library"]
+animate_text = false;

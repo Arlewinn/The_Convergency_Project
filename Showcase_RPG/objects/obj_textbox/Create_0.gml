@@ -29,3 +29,6 @@ font = fnt_dialogue;
 
 //variable so that the player interacting with the object doesn't skip the text animation automatically
 wait = true;
+
+monster_move_speed = 0;
+if instance_exists(obj_monster) {monster_move_speed = obj_monster.move_spd}

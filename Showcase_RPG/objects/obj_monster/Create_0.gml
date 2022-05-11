@@ -7,6 +7,8 @@ goal_y = 0;
 
 move_spd = 1;
 
+set_move_spd = 0;
+
 sprite[RIGHT] = spr_monster_right;
 sprite[UP] = spr_monster_up;
 sprite[LEFT] = spr_monster_left;

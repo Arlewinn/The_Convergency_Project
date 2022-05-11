@@ -4,7 +4,7 @@
     "path": "sprites/spr_waypoint/spr_waypoint.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
