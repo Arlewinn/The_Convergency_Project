@@ -1,1 +1,1 @@
-words = ["Journal Entry: Oh no I lost my screwdriver. I think I last saw it while repairing a fridge in the pantry."];
+words = ["Journal Entry: Crap...I seem to have lost my screwdriver again.", "The last time I remember having it was when I was repairing a fridge in the pantry.", "I think it was the last fridge on the left of the bottom row.", "I'll make a note here so I remember to go back to check tomorrow."];

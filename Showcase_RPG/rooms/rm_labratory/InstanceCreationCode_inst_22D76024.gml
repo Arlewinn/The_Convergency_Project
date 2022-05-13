@@ -1,0 +1,1 @@
+words = ["This terminal seems to display data on the status of the reactor.", "All cores look stable...thank goodness."]

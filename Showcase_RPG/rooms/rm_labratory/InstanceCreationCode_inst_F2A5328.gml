@@ -1,1 +1,2 @@
-words[0] = "Dr. Taylor"
+words[0] = "Dr. Alex Taylor"
+animate_text = false;

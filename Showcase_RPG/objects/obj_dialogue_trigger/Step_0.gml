@@ -14,7 +14,7 @@ if place_meeting(x, y, target){
 	{
 		var dialoge_trigger = instance_create_depth(obj_player.x + 30, obj_player.y, 0, obj_dialogue_trigger);
 		dialoge_trigger.target = obj_monster;
-		dialoge_trigger.words = ["BLARRRGUHHH", "Oh shit! It found me! I'm trapped!", "INTERCOM: Subject is instructed to proceed through the Morpheus Gate.", "EXCUSE ME?", "ITERCOM: ...Walk into the big energy ball looking thing."];
+		dialoge_trigger.words = ["BLARRRGUHHH", "Oh shit! It found me! I'm trapped!", "INTERCOM: Subject is instructed to proceed through the Morpheus Gate.", "EXCUSE ME?", "INTERCOM: ...Walk into the big energy ball looking thing."];
 		dialoge_trigger.event_ID = 3;
 		obj_monster.set_move_spd = 3;
 		obj_monster.x = obj_player.x + 160;
