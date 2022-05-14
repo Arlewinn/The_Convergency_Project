@@ -1,30 +1,31 @@
 var hasKey = false;
 var playerInventory = obj_player.inventory;
 
-
-if (place_meeting(x + radius, y, obj_player)) || (place_meeting(x - radius, y, obj_player)) || (place_meeting(x, y + radius, obj_player)) || (place_meeting(x, y - radius, obj_player))
-	{
-		for (i=0; i < array_length(playerInventory); i++)
+if !instance_exists(obj_pauser){
+	if (place_meeting(x + radius, y, obj_player)) || (place_meeting(x - radius, y, obj_player)) || (place_meeting(x, y + radius, obj_player)) || (place_meeting(x, y - radius, obj_player))
 		{
-			if playerInventory[i] == myKey {hasKey = true}
-		}
-		with(obj_door){
-			if(door_ID == other.targetDoor_ID) && hasKey && obj_player.frozen = false{
-				//show_debug_message("hooii");
-				if (locked == true)
-				{
-					display_message([str("msg_door_unlocked")], false);
-					locked = false;
-				}
-				else 
-				{
-					display_message([str("msg_door_locked")], false);
-					locked = true;
-				}
+			for (i=0; i < array_length(playerInventory); i++)
+			{
+				if playerInventory[i] == myKey {hasKey = true}
 			}
-			else if (door_ID == other.targetDoor_ID) && hasKey == false {display_message([str("msg_keycard-not-accepted")], false);}
+			with(obj_door){
+				if(door_ID == other.targetDoor_ID) && hasKey && obj_player.frozen = false{
+					//show_debug_message("hooii");
+					if (locked == true)
+					{
+						display_message([str("msg_door_unlocked")], false);
+						locked = false;
+					}
+					else 
+					{
+						display_message([str("msg_door_locked")], false);
+						locked = true;
+					}
+				}
+				else if (door_ID == other.targetDoor_ID) && hasKey == false {display_message([str("msg_keycard-not-accepted")], false);}
+			}
 		}
-	}
+}
 	
 /*else if (place_meeting(x + 10, y, obj_player)) || (place_meeting(x - 10, y, obj_player)) || (place_meeting(x, y + 10, obj_player)) || (place_meeting(x, y - 10, obj_player))
 	{

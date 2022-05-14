@@ -157,8 +157,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_storage_room","path":"rooms/rm_storage_room/rm_storage_room.yy",},},
     {"roomId":{"name":"rm_title_test","path":"rooms/rm_title_test/rm_title_test.yy",},},
+    {"roomId":{"name":"rm_storage_room","path":"rooms/rm_storage_room/rm_storage_room.yy",},},
     {"roomId":{"name":"rm_labratory","path":"rooms/rm_labratory/rm_labratory.yy",},},
     {"roomId":{"name":"rm_battle","path":"rooms/rm_battle/rm_battle.yy",},},
     {"roomId":{"name":"rm_dungeon_b2","path":"rooms/rm_dungeon_b2/rm_dungeon_b2.yy",},},
@@ -202,6 +202,7 @@
     {"CopyToMask":-1,"filePath":"datafiles/i18n","resourceVersion":"1.0","name":"en-US.json","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":".DS_Store","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles/i18n","resourceVersion":"1.0","name":".DS_Store","resourceType":"GMIncludedFile",},
+    {"CopyToMask":3035461389054378222,"filePath":"datafiles/i18n","resourceVersion":"1.0","name":"ja-JP.json","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
     "IDEVersion": "2022.3.0.625",

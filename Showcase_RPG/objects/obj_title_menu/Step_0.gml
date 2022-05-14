@@ -79,23 +79,36 @@ if acc_key {
 							if obj_polyglot._currLocale != "en-US"
 							{
 								change_lang("en-US");
-								break;
+								//obj_polyglot.setLocale("en-US");
+								
 							}
-							else {break;}
+							if room == rm_title_test {menu_level = 0}
+							else {instance_destroy()}
+							break;
 						case 1:
 							if obj_polyglot._currLocale != "ja-JP"
 							{
 								change_lang("ja-JP");
+								//obj_polyglot.setLocale("ja-JP");
+								if room == rm_title_test {menu_level = 0}
+								else {instance_destroy()}
 								break;
 							}
-							else {break;}
+							if room == rm_title_test {menu_level = 0}
+							else {instance_destroy()}
+							break;
 						case 2:
 							if obj_polyglot._currLocale != "kr-KR"
 							{
 								change_lang("kr-KR");
+								//obj_polyglot.setLocale("kr-KR");
+								if room == rm_title_test {menu_level = 0}
+								else {instance_destroy()}
 								break;
 							}
-							else {break;}
+							if room == rm_title_test {menu_level = 0}
+							else {instance_destroy()}
+							break;
 					}
 					break;
 			

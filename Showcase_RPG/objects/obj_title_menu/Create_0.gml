@@ -8,6 +8,8 @@ pos = 0;
 
 text_scale = 0.5;
 
+font = fnt_menu;
+
 depth = -9999;
 
 //start menu

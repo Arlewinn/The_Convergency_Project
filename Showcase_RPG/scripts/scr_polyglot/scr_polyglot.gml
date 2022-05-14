@@ -12,7 +12,7 @@ function str(stringKey, data = {}) {
 }
 
 function change_lang(lang) {
-	obj_polyglot._currLocale = lang;
+	obj_polyglot.setLocale(lang);
 	if instance_exists(obj_player){
 		var load_x = obj_player.x;
 		var load_y = obj_player.y;

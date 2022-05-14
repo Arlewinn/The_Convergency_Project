@@ -1,4 +1,4 @@
-
+if !instance_exists(obj_pauser){
 if (place_meeting(x + radius, y, obj_player)) || (place_meeting(x - radius, y, obj_player)) || (place_meeting(x, y + radius, obj_player)) || (place_meeting(x, y - radius, obj_player) )
 	{
 		display_message([str("msg_ItemReceived") + item_text], false);
@@ -6,6 +6,7 @@ if (place_meeting(x + radius, y, obj_player)) || (place_meeting(x - radius, y, o
 		instance_destroy();
 		//show_debug_message(obj_player.inventory);
 	}
+}
 
 	
 /*else if place_meeting(x - 10, y, obj_player) 
