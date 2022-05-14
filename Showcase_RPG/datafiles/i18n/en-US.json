@@ -16,9 +16,17 @@
     "msg_keycard-not-accepted": "*BUZZER* keycard not accepted.",
     "msg_door_unlocked": "*BEEP BOOP* you unlocked the door.",
     "msg_door_locked": "*BEEP BOOP* you locked the door.",
+    "item_screwdriver": "screwdriver",
+    "item_cckey": "Command Center Key",
+    "item_storageKey": "Storage Key",
+    "sign_key": "Key",
+    "sign_reactorKey": "Reactor Key",
+    "sign_bedroomKey": "Bedroom Key",
+    "sign_bathroomKey": "Bathroom Key",
+    "sign_cckey": "Command Center Key",
     "sign_bedroom1": "Bedroom 1",
     "sign_bedroom2": "Bedroom 2",
-    "sign_bathroom1": "Bathroom",
+    "sign_bathroom": "Bathroom",
     "sign_bathroomKey": "Bathroom Key",
     "sign_command_center": "Command Center",
     "sign_library": "Research Library",
@@ -73,6 +81,7 @@
     "dialog_bed_jounal2": "The last time I remember having it was when I was repairing a fridge in the pantry.",
     "dialog_bed_jounal3": "I think it was the last fridge on the left of the bottom row.",
     "dialog_bed_jounal4": "I'll make a note here so I remember to go back to check tomorrow.",
-    "dialog_cafe_journal1": "Journal Entry: I got locked out of the command center. I can't bear to tell everyone I lost my key again.",
-    "dialog_cafe_journal2": "I'll need to sneak back into the reactor to try to find it later."
+    "dialog_cafe_journal1": "Journal Entry: I got locked out of the Command Center. I can't bear to tell everyone I lost my key again.",
+    "dialog_cafe_journal2": "I'll need to sneak back into the reactor to try to find it later.",
+    "dialog_stroageKey": "It looks like someone had slipped it between the pages of this book."
 }

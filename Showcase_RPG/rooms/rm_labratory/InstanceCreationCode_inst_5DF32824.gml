@@ -1,2 +1,2 @@
 targetDoor_ID = 3;
-myKey = "Reactor Key";
+myKey = str("sign_reactorKey");

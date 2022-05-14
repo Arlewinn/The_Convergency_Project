@@ -1,2 +1,3 @@
 target = obj_monster;
-words = ["BLAARRRGGHHH", "Oh shit!! I have to get out of here!"];
+words = [str("dialog_Monster1"),
+		 str("dialog_Protagonist_Monster2")];

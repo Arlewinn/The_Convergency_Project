@@ -1,2 +1,2 @@
-myKey = "Command Center Key";
+myKey = str("sign_cckey");
 targetDoor_ID = 2;

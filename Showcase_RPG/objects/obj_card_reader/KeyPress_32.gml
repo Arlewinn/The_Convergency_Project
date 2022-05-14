@@ -13,16 +13,16 @@ if (place_meeting(x + radius, y, obj_player)) || (place_meeting(x - radius, y, o
 				//show_debug_message("hooii");
 				if (locked == true)
 				{
-					display_message(["*BEEP BOOP* you unlocked the door."], false);
+					display_message([str("msg_door_unlocked")], false);
 					locked = false;
 				}
 				else 
 				{
-					display_message(["*BEEP BOOP* you locked the door."], false);
+					display_message([str("msg_door_locked")], false);
 					locked = true;
 				}
 			}
-			else if (door_ID == other.targetDoor_ID) && hasKey == false {display_message(["*BUZZER* keycard not accepted."], false);}
+			else if (door_ID == other.targetDoor_ID) && hasKey == false {display_message([str("msg_keycard-not-accepted")], false);}
 		}
 	}
 	

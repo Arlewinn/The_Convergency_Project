@@ -1,2 +1,2 @@
 targetDoor_ID = 4;
-myKey = "Storage Key";
+myKey = str("sign_storageKey");

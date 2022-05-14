@@ -1,1 +1,2 @@
-words = [str("dialog_reactor_terminal3-1", "dialog_reactor_terminal3-2")];
+words = [str("dialog_reactor_terminal3-1"),
+		 str("dialog_reactor_terminal3-2")];

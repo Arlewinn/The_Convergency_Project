@@ -1,2 +1,2 @@
-words[0] = "What the hell is that thing???";
+words[0] = str("dialog_Protagonist_Monster");
 event_ID = 1;

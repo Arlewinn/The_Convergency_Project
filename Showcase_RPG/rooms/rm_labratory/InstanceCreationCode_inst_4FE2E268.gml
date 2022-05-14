@@ -1,3 +1,3 @@
-words[0] = "It looks like someone had slipped it between the pages of this book.";
+words[0] = str("dialog_stroageKey");
 destroy_on_read = true;
 depth = -999;

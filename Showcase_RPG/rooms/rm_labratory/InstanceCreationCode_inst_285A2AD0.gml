@@ -1,1 +1,4 @@
-words = ["Journal Entry: Crap...I seem to have lost my screwdriver again.", "The last time I remember having it was when I was repairing a fridge in the pantry.", "I think it was the last fridge on the left of the bottom row.", "I'll make a note here so I remember to go back to check tomorrow."];
+words = [str("dialog_bed_jounal1"),
+		 str("dialog_bed_jounal2"),
+		 str("dialog_bed_jounal3"),
+		 str("dialog_bed_jounal4")];

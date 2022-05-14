@@ -1,2 +1,2 @@
-text[0] = str("sign_bathroom1");
+words = [str("sign_bathroom")];
 animate_text = false;

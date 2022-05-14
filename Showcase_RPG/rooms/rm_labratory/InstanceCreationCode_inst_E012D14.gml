@@ -1,2 +1,2 @@
 targetDoor_ID = 42;
-myKey = "Bathroom_Key";
+myKey = str("sign_bathroomKey");
