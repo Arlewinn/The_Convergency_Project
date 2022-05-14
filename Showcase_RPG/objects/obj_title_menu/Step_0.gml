@@ -86,6 +86,16 @@ if acc_key {
 							else {instance_destroy()}
 							break;
 						case 1:
+							if obj_polyglot._currLocale != "fr-FR"
+							{
+								change_lang("fr-FR");
+								//obj_polyglot.setLocale("fr-FR");
+								
+							}
+							if room == rm_title_test {menu_level = 0}
+							else {instance_destroy()}
+							break;
+						case 2:
 							if obj_polyglot._currLocale != "ja-JP"
 							{
 								change_lang("ja-JP");
@@ -97,7 +107,7 @@ if acc_key {
 							if room == rm_title_test {menu_level = 0}
 							else {instance_destroy()}
 							break;
-						case 2:
+						case 3:
 							if obj_polyglot._currLocale != "ko-KR"
 							{
 								change_lang("ko-KR");

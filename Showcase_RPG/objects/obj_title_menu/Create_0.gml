@@ -20,11 +20,12 @@ option[0, 2] = str("start_quit");
 if room != rm_title_test {option[0, 0] = str("start_resume")}
 
 //settings
-lang = ["< English >", "< 日本語 >", "< 한국어 >"];
+lang = ["< English >", "Français", "< 日本語 >", "< 한국어 >"];
 lang_num = 0;
 if obj_polyglot._currLocale == "en-US" {lang_num = 0}
-if obj_polyglot._currLocale == "ja-JP" {lang_num = 1}
-if obj_polyglot._currLocale == "ko-KR" {lang_num = 2}
+if obj_polyglot._currLocale == "fr-FR" {lang_num = 1}
+if obj_polyglot._currLocale == "ja-JP" {lang_num = 2}
+if obj_polyglot._currLocale == "ko-KR" {lang_num = 3}
 
 
 option[1, 0] = str("settings_windowSize");
