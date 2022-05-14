@@ -24,7 +24,7 @@ lang = ["< English >", "< 日本語 >", "< 한국어 >"];
 lang_num = 0;
 if obj_polyglot._currLocale == "en-US" {lang_num = 0}
 if obj_polyglot._currLocale == "ja-JP" {lang_num = 1}
-if obj_polyglot._currLocale == "kr-KR" {lang_num = 2}
+if obj_polyglot._currLocale == "ko-KR" {lang_num = 2}
 
 
 option[1, 0] = str("settings_windowSize");

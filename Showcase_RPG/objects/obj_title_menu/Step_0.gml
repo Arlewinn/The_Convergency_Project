@@ -98,9 +98,9 @@ if acc_key {
 							else {instance_destroy()}
 							break;
 						case 2:
-							if obj_polyglot._currLocale != "kr-KR"
+							if obj_polyglot._currLocale != "ko-KR"
 							{
-								change_lang("kr-KR");
+								change_lang("ko-KR");
 								//obj_polyglot.setLocale("kr-KR");
 								if room == rm_title_test {menu_level = 0}
 								else {instance_destroy()}
