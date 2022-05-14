@@ -1,1 +1,1 @@
-words = ["Log Entry: I had to let Dr. Williams into the reactor to check the status of the cores again.", "I finally got them to confess they lost their key to it while in the shower.", "...Why did they even have their key with them in the shower?"]
+words = [str("dialog_ComputerTerminal2")]

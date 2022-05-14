@@ -1,3 +1,3 @@
 targetDoor_ID = 4;
-myKey = "Storage Key";
+myKey = "Storage_Key";
 radius = 12;

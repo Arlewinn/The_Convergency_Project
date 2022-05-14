@@ -1,2 +1,2 @@
-words[0] = "Dr. Yaoting Wu"
+words[0] = str("sign_wu");
 animate_text = false;

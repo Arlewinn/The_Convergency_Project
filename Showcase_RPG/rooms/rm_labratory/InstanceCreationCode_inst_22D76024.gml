@@ -1,1 +1,1 @@
-words = ["This terminal seems to display data on the status of the reactor.", "All cores look stable...thank goodness."]
+words = [str("dialog_reactor_terminal3-1", "dialog_reactor_terminal3-2")];

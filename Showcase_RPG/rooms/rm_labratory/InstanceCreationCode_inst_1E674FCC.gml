@@ -1,1 +1,3 @@
-words = ["Journal Entry: I got locked out of the command center. I can't bear to tell everyone I lost my key again.", "I'll need to sneak back into the reactor to try to find it later."];
+words = [str("dialog_cafe_journal1"),
+		 str("dialog_cafe_journal2"),
+		 str("dialog_cafe_journal3")];

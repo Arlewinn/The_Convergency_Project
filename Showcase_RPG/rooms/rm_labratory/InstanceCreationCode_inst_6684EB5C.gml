@@ -1,0 +1,1 @@
+words = [str("dialog_reactor_terminal2")];

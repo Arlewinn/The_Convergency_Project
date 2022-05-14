@@ -9,17 +9,17 @@ pos = 0;
 text_scale = 0.5;
 
 //start menu
-option[0, 0] = "Start Game";
-option[0, 1] = "Settings";
-option[0, 2] = "Quit Game";
+option[0, 0] = str("start_start");
+option[0, 1] = str("start_settings");
+option[0, 2] = str("start_quit");
 
-if room != rm_title_test {option[0, 0] = "Resume"}
+if room != rm_title_test {option[0, 0] = str("start_resume")}
 
 //settings
-option[1, 0] = "Window Size";
-option[1, 1] = "Brightness";
-option[1, 2] = "Controls";
-option[1, 3] = "Back";
+option[1, 0] = str("settings_windowSize");
+option[1, 1] = str("settings_brightness");
+option[1, 2] = str("settings_controls");
+option[1, 3] = str("settings_back");
 
 op_length = 0;
 menu_level = 0;
