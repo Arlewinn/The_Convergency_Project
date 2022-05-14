@@ -3,6 +3,9 @@ up_key = keyboard_check_pressed(vk_up);
 down_key = keyboard_check_pressed(vk_down);
 acc_key = keyboard_check_pressed(vk_space);
 
+right_key = keyboard_check_pressed(vk_right);
+left_key = keyboard_check_pressed(vk_left);
+
 op_length = array_length(option[menu_level]);
 
 //move through the menu
@@ -11,6 +14,33 @@ if pos >= op_length {pos = 0};
 if pos < 0 {pos = op_length - 1};
 
 //using the options
+
+if left_key{
+	show_debug_message("left");
+	if menu_level == 1 && pos == 3{
+		if lang_num == 0 
+		{
+			lang_num = 2;
+		}
+		else {lang_num --}
+		option[1, 3] = lang[lang_num];
+	}
+		
+}
+
+if right_key{
+	show_debug_message("right");
+	if menu_level == 1 && pos == 3{
+		if lang_num == 2 
+		{
+			lang_num = 0
+		}
+		else {lang_num ++}
+		option[1, 3] = lang[lang_num];
+	}
+		
+}
+
 if acc_key {	
 	var sml = menu_level;
 
@@ -25,7 +55,7 @@ if acc_key {
 				else {instance_destroy()};
 				break;
 			//settings
-			case 1: menu_level = 1; break;	
+			case 1: menu_level = 1; break;
 			//quit game
 			case 2: game_end(); break;
 			}
@@ -41,15 +71,44 @@ if acc_key {
 			
 				//controls
 				case 2: break;
+				
+				case 3:
+					switch (lang_num)
+					{
+						case 0:
+							if obj_polyglot._currLocale != "en-US"
+							{
+								change_lang("en-US");
+								break;
+							}
+							else {break;}
+						case 1:
+							if obj_polyglot._currLocale != "ja-JP"
+							{
+								change_lang("ja-JP");
+								break;
+							}
+							else {break;}
+						case 2:
+							if obj_polyglot._currLocale != "kr-KR"
+							{
+								change_lang("kr-KR");
+								break;
+							}
+							else {break;}
+					}
+					break;
 			
 				//back
-				case 3: menu_level = 0; break;
+				case 4: menu_level = 0; break;
 			}
 		}
 	
 	//correct option length
 	if sml != menu_level {pos = 0}
 	op_length = array_length(option[menu_level]);
+
+
 }
 
 

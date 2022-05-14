@@ -5,7 +5,7 @@ if (instance_exists(obj_pauser)){
 else  {move_spd = set_move_spd}
 //determines movement direction
 
-if blocked 
+if blocked && instance_exists(obj_waypoint)
 {
 	var waypoint = instance_nearest(x, y, obj_waypoint);
 	goal_x = waypoint.x;

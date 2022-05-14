@@ -10,3 +10,27 @@ function str(stringKey, data = {}) {
 	}
 	return obj_polyglot._string_lookup(stringKey, data);
 }
+
+function change_lang(lang) {
+	obj_polyglot._currLocale = lang;
+	if instance_exists(obj_player){
+		var load_x = obj_player.x;
+		var load_y = obj_player.y;
+	}
+	if instance_exists(obj_monster){
+		obj_monster.reload = true;
+		var m_load_x = obj_monster.x;
+		var m_load_y = obj_monster.y;
+	}
+	room_goto(room);
+	if instance_exists(obj_player){
+		obj_player.x = load_x;
+		obj_player.y = load_y;
+	}
+	if instance_exists(obj_monster) && obj_player.checkpoint >= 1{
+		obj_monster.x = m_load_x;
+		obj_monster.y = m_load_y;
+		obj_monster.set_move_spd = 1;
+		obj_monster.reload = false;
+	}
+}

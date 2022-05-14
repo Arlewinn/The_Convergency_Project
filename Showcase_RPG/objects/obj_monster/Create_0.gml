@@ -25,3 +25,5 @@ player_near = true;
 blocked = false;
 
 waypoint_talley = 0;
+
+reload = false;

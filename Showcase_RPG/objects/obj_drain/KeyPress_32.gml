@@ -8,9 +8,9 @@ if (place_meeting(x + radius, y, obj_player)) || (place_meeting(x - radius, y, o
 	}
 	if (hasItem == true && hasKey == true)
 		{
-			display_message(["You unscreweed the drain and found something.", "You obtained:" + item], false);
+			display_message([str("msg_drain_pickUp1"), str("msg_ItemReceived") + item], false);
 			array_push(obj_player.inventory, item);
 			hasItem = false;
 		}
-	else if (hasItem == true && hasKey == false) {display_message(["You can see something stuck in the drain."], false)}
+	else if (hasItem == true && hasKey == false) {display_message([str("msg_drain")], false)}
 	}

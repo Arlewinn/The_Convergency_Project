@@ -1,1 +1,0 @@
-words = ["There are various values recorded in a spreadsheet. They're impossible to make sense of."]
