@@ -1,2 +1,2 @@
-words = ["Morpheus Gate Chamber 4"]
+words = ["sign_morpheus4"]
 animate_text = false;
