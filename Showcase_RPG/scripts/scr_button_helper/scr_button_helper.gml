@@ -25,3 +25,9 @@ function cancel_button(){
 		}
 	}
 }
+
+function run_button(){
+	with(obj_combat_manager){
+		combatPhase = phase.lose;
+	}
+}

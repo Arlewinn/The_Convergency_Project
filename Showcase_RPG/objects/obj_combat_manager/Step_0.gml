@@ -15,6 +15,7 @@ switch(combatPhase){
 	break;
 	
 	case phase.startTurn:
+		obj_battle_text.text_current = 1;
 		spd_sort(global.units);
 		if(units_finished >= ds_list_size(global.units)){
 			for(var i=0; i<ds_list_size(global.units); i++){
@@ -65,15 +66,15 @@ switch(combatPhase){
 	
 	case phase.checkFinish:
 		process_finished = false;
-		//if(keyboard_check_released(vk_space)){
+		if(keyboard_check_released(vk_space)){
 			combatPhase = phase.endTurn;
-		//}
-		//if(keyboard_check_released(vk_enter)){
-		//	combatPhase = phase.win;
-		//}
-		//if(keyboard_check_released(vk_control)){
-		//	combatPhase = phase.lose;
-		//}
+		}
+		if(keyboard_check_released(vk_enter)){
+			combatPhase = phase.win;
+		}
+		if(keyboard_check_released(vk_control)){
+			combatPhase = phase.lose;
+		}
 	break;
 	
 	case phase.endTurn:
@@ -84,8 +85,24 @@ switch(combatPhase){
 	break;
 	
 	case phase.win:
+		obj_battle_text.text_current = 4;
+		if(!instance_exists(obj_warp)){
+			var inst = instance_create_depth(0, 0, -999, obj_warp);
+			inst.target_x = global.player_x;
+			inst.target_y = global.player_y;
+			inst.target_rm = global.last_room;
+			inst.target_face = DOWN;
+		}
 	break;
 	
 	case phase.lose:
+		obj_battle_text.text_current = 5;
+		if(!instance_exists(obj_warp)){
+			var inst = instance_create_depth(0, 0, -999, obj_warp);
+			inst.target_x = global.player_x;
+			inst.target_y = global.player_y;
+			inst.target_rm = global.last_room;
+			inst.target_face = DOWN;
+		}
 	break;
 }
