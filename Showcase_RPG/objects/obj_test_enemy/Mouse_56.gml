@@ -1,5 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+
+// Inherit the parent event
+event_inherited();
+
 if(global.selectedUnit == id){
 	obj_battle_text.text_current = 4;
 	global.selectedTargets = global.units[|0];

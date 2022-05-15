@@ -39,7 +39,6 @@ switch(combatPhase){
 			allow_input = true;
 			event_user(1);
 		}
-		
 		combatPhase = phase.wait;
 	break;
 	
@@ -69,7 +68,11 @@ switch(combatPhase){
 	
 	case phase.checkFinish:
 		process_finished = false;
-		if(ds_list_size(global.units) == 1){
+		if(global.selectedTargets.current[@HP] <= 0){
+			ds_list_delete(global.units, ds_list_find_index(global.units, global.selectedTargets.id));
+			instance_destroy(global.selectedTargets.id);
+		}
+		if(ds_list_size(global.units) <= 1){
 			combatPhase = phase.win;
 		} else {
 		//if(keyboard_check_released(vk_space)){
