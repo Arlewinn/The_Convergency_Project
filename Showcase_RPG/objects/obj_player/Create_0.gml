@@ -18,4 +18,4 @@ checkpoint = 0;
 
 
 //initialize inventory
-inventory = ["Bathroom_Key"];
+inventory = ["Bathroom Key"];

@@ -92,7 +92,7 @@ y += yspd;
 
 if place_meeting(x + xspd, y , obj_player) && !instance_exists(obj_warp)
 	{
-	show_debug_message("ow");
+
 	var inst = instance_create_depth(0, 0, -999, obj_warp);
 	inst.target_x = 0;
 	inst.target_y = 0;

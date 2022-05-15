@@ -16,11 +16,11 @@ if pos < 0 {pos = op_length - 1};
 //using the options
 
 if left_key{
-	show_debug_message("left");
+	//show_debug_message("left");
 	if menu_level == 1 && pos == 3{
 		if lang_num == 0 
 		{
-			lang_num = 2;
+			lang_num = 3;
 		}
 		else {lang_num --}
 		option[1, 3] = lang[lang_num];
@@ -29,9 +29,9 @@ if left_key{
 }
 
 if right_key{
-	show_debug_message("right");
+	//show_debug_message("right");
 	if menu_level == 1 && pos == 3{
-		if lang_num == 2 
+		if lang_num == 3 
 		{
 			lang_num = 0
 		}

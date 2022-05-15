@@ -1,3 +1,5 @@
+line_sep = 24 * text_scale;
+border = 16 * text_scale;
 tbox_x = camera_get_view_x(view_camera[0]) + 50;
 tbox_y = camera_get_view_y(view_camera[0]) + 144;
 

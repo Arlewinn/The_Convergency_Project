@@ -4,7 +4,6 @@ depth = -99999;
 tbox_width = 180;
 tbox_height = 50;
 border = 8;
-line_sep = 12;
 line_width = (tbox_width - border * 2) ;
 txtb_spr = spr_textbox;
 txtb_img = 0;
@@ -21,6 +20,8 @@ text_length[0] = string_length(words[0]);
 draw_char = 0;
 text_speed = 0.5;
 text_scale = 0.5;
+
+line_sep = 12;
 
 setup = false;
 

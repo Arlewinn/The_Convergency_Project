@@ -1,4 +1,4 @@
-if place_meeting(x, y, target){
+if place_meeting(x, y, target) && !instance_exists(obj_pauser){
 	display_message(words, animate, text_speed)
 	
 	if event_ID == 1 

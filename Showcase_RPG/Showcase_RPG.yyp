@@ -112,6 +112,7 @@
     {"id":{"name":"spr_reactor_pillars","path":"sprites/spr_reactor_pillars/spr_reactor_pillars.yy",},"order":6,},
     {"id":{"name":"obj_masterKey","path":"objects/obj_masterKey/obj_masterKey.yy",},"order":0,},
     {"id":{"name":"spr_SciFi_Deco_3","path":"sprites/spr_SciFi_Deco_3/spr_SciFi_Deco_3.yy",},"order":4,},
+    {"id":{"name":"rm_thankYou","path":"rooms/rm_thankYou/rm_thankYou.yy",},"order":7,},
     {"id":{"name":"spr_player_down","path":"sprites/spr_player_down/spr_player_down.yy",},"order":0,},
     {"id":{"name":"spr_monster_down","path":"sprites/spr_monster_down/spr_monster_down.yy",},"order":1,},
     {"id":{"name":"obj_dialogue_trigger","path":"objects/obj_dialogue_trigger/obj_dialogue_trigger.yy",},"order":14,},
@@ -157,12 +158,13 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_labratory","path":"rooms/rm_labratory/rm_labratory.yy",},},
+    {"roomId":{"name":"rm_thankYou","path":"rooms/rm_thankYou/rm_thankYou.yy",},},
     {"roomId":{"name":"rm_title_test","path":"rooms/rm_title_test/rm_title_test.yy",},},
     {"roomId":{"name":"rm_storage_room","path":"rooms/rm_storage_room/rm_storage_room.yy",},},
-    {"roomId":{"name":"rm_labratory","path":"rooms/rm_labratory/rm_labratory.yy",},},
-    {"roomId":{"name":"rm_battle","path":"rooms/rm_battle/rm_battle.yy",},},
-    {"roomId":{"name":"rm_dungeon_b2","path":"rooms/rm_dungeon_b2/rm_dungeon_b2.yy",},},
     {"roomId":{"name":"rm_dungeon_b1","path":"rooms/rm_dungeon_b1/rm_dungeon_b1.yy",},},
+    {"roomId":{"name":"rm_dungeon_b2","path":"rooms/rm_dungeon_b2/rm_dungeon_b2.yy",},},
+    {"roomId":{"name":"rm_battle","path":"rooms/rm_battle/rm_battle.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -202,7 +204,7 @@
     {"CopyToMask":-1,"filePath":"datafiles/i18n","resourceVersion":"1.0","name":"en-US.json","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":".DS_Store","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles/i18n","resourceVersion":"1.0","name":".DS_Store","resourceType":"GMIncludedFile",},
-    {"CopyToMask":3035461389054378222,"filePath":"datafiles/i18n","resourceVersion":"1.0","name":"ja-JP.json","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles/i18n","resourceVersion":"1.0","name":"ja-JP.json","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
     "IDEVersion": "2022.3.0.625",
