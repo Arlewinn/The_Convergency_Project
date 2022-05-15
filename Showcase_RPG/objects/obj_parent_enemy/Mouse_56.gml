@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if(global.selectedUnit.id == id and global.targeting){
 	if(position_meeting(mouse_x, mouse_y, obj_parent_enemy)){
-		obj_battle_text.text_current = 2;
+		obj_battle_text.text_current = 3;
 		var unit = instance_position(mouse_x, mouse_y, obj_parent_enemy);
 		if(unit != global.selectedUnit){
 			global.selectedTargets = noone;

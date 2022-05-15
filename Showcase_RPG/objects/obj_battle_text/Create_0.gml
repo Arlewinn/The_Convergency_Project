@@ -2,14 +2,15 @@
 // You can write your code in this editor
 text[0] = "Enemies appeared!";
 text[1] = "What will you do?";
-text[2] = "You attacked!";
-text[3] = "Enemy attacked!";
-text[4] = "You won!";
-text[5] = "You lost!";
+text[2] = "Choose a target!"
+text[3] = "You attacked!";
+text[4] = "Enemy attacked!";
+text[5] = "You won!";
+text[6] = "You lost!";
 
 
 text_current = 0;
-text_last = 5;
+text_last = 6;
 text_width = sprite_width - 4;
 text_x = x+4;
 text_y = y+4;

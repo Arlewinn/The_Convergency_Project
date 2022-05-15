@@ -7,7 +7,11 @@ switch(combatPhase){
 		layer_set_visible(battle_ui, false);
 		for (var i = 0; i < instance_number(obj_combat_spawn); i++){
 			var spawner = instance_find(obj_combat_spawn, i);
-			var unit = instance_create_depth(spawner.x, spawner.y, 0, obj_test_enemy);
+			if(i == 0){
+				var unit = instance_create_depth(spawner.x, spawner.y, 0, obj_test_player);
+			} else {
+				var unit = instance_create_depth(spawner.x, spawner.y, 0, obj_test_enemy);
+			}
 			ds_list_add(global.units, unit);
 		}
 		combatPhase = phase.startTurn;
@@ -15,7 +19,7 @@ switch(combatPhase){
 	
 	case phase.startTurn:
 		obj_battle_text.text_current = 1;
-		spd_sort(global.units);
+		//spd_sort(global.units);
 		if(units_finished >= ds_list_size(global.units)){
 			for(var i=0; i<ds_list_size(global.units); i++){
 				with(global.units[|i]){
@@ -65,9 +69,13 @@ switch(combatPhase){
 	
 	case phase.checkFinish:
 		process_finished = false;
+		if(ds_list_size(global.units) == 1){
+			combatPhase = phase.win;
+		} else {
 		//if(keyboard_check_released(vk_space)){
 			combatPhase = phase.endTurn;
 		//}
+		}
 		/*if(keyboard_check_released(vk_enter)){
 			combatPhase = phase.win;
 		}
@@ -84,7 +92,7 @@ switch(combatPhase){
 	break;
 	
 	case phase.win:
-		obj_battle_text.text_current = 4;
+		obj_battle_text.text_current = 5;
 		if(!instance_exists(obj_warp)){
 			var inst = instance_create_depth(0, 0, -999, obj_warp);
 			inst.target_x = global.player_x;
@@ -95,7 +103,7 @@ switch(combatPhase){
 	break;
 	
 	case phase.lose:
-		obj_battle_text.text_current = 5;
+		obj_battle_text.text_current = 6;
 		if(!instance_exists(obj_warp)){
 			var inst = instance_create_depth(0, 0, -999, obj_warp);
 			inst.target_x = global.player_x;

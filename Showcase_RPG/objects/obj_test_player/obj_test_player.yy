@@ -1,7 +1,10 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_prince_down",
+    "path": "sprites/spr_prince_down/spr_prince_down.yy",
+  },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": {
     "name": "spr_targeting",
     "path": "sprites/spr_targeting/spr_targeting.yy",

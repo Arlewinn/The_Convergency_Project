@@ -1,6 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function attack_button(){
+	obj_battle_text.text_current = 2;
 	global.targeting = true;
 	for(var i=0; i<ds_list_size(global.units); i++){
 		var _inst = global.units[|i];
@@ -16,6 +17,7 @@ function attack_button(){
 	}
 }
 function cancel_button(){
+	obj_battle_text.text_current = 1;
 	global.targeting = false;
 	ds_list_clear(global.targets);
 	with(obj_combat_manager){
