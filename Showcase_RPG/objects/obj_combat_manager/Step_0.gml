@@ -7,7 +7,6 @@ switch(combatPhase){
 		layer_set_visible(battle_ui, false);
 		for (var i = 0; i < instance_number(obj_combat_spawn); i++){
 			var spawner = instance_find(obj_combat_spawn, i);
-			//var unit_1 = instance_create_layer(spawner.x, spawner.y, "Instances", obj_test_enemy);
 			var unit = instance_create_depth(spawner.x, spawner.y, 0, obj_test_enemy);
 			ds_list_add(global.units, unit);
 		}
@@ -66,15 +65,15 @@ switch(combatPhase){
 	
 	case phase.checkFinish:
 		process_finished = false;
-		if(keyboard_check_released(vk_space)){
+		//if(keyboard_check_released(vk_space)){
 			combatPhase = phase.endTurn;
-		}
-		if(keyboard_check_released(vk_enter)){
+		//}
+		/*if(keyboard_check_released(vk_enter)){
 			combatPhase = phase.win;
 		}
 		if(keyboard_check_released(vk_control)){
 			combatPhase = phase.lose;
-		}
+		}*/
 	break;
 	
 	case phase.endTurn:

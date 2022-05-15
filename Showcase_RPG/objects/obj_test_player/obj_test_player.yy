@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_monster_combat",
-    "path": "sprites/spr_monster_combat/spr_monster_combat.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": {
@@ -36,7 +33,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_test_enemy",
+  "name": "obj_test_player",
   "tags": [],
   "resourceType": "GMObject",
 }
