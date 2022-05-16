@@ -4,7 +4,7 @@
     "path": "sprites/spr_prince_down/spr_prince_down.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": {
     "name": "spr_targeting",
     "path": "sprites/spr_targeting/spr_targeting.yy",

@@ -12,7 +12,7 @@
     "msg_pickUpJournal": "You have picked up a journal.",
     "msg_ItemReceived": "Item obtained: ",
     "msg_drain": "You can see something stuck in the drain.",
-    "msg_drain_pickUp1": "You unscreweed the drain and found something.",
+    "msg_drain_pickUp1": "You unscrewed the drain and found something.",
     "msg_keycard-not-accepted": "*BUZZER* keycard not accepted.",
     "msg_door_unlocked": "*BEEP BOOP* you unlocked the door.",
     "msg_door_locked": "*BEEP BOOP* you locked the door.",
@@ -130,5 +130,20 @@
     "dialog_cafe_journal2": "I'll need to sneak back into the reactor to try to find it later.",
     "dialog_stroageKey": "It looks like someone had slipped it between the pages of this book.",
 
-    "emy_dgn_monster": "Dungeon Monster"
+    "emy_dgn_monster": "Dungeon Monster",
+    "player": "Player",
+
+    "btl_emy_appear": "Enemies appeared!",
+    "btl_your_turn": "Your turn! What will you do?",
+    "btl_target":"Choose a target!",
+    "btl_attack":"You attacked!",
+    "btl_emy_atk":"Enemy attacked!",
+    "btl_win":"You won!",
+    "btl_run":"You ran away!",
+    "btl_emy_turn":"Enemy's turn!",
+    "btl_lose":"You lost!",
+
+    "btl_btn_atk": "Attack",
+    "btl_btn_run": "Run",
+    "btl_btn_cncl": "Cancel"
 }

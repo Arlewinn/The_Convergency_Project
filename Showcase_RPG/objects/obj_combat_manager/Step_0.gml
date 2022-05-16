@@ -18,7 +18,6 @@ switch(combatPhase){
 	break;
 	
 	case phase.startTurn:
-		obj_battle_text.text_current = 1;
 		//spd_sort(global.units);
 		if(units_finished >= ds_list_size(global.units)){
 			for(var i=0; i<ds_list_size(global.units); i++){
@@ -35,6 +34,12 @@ switch(combatPhase){
 				break;
 			}
 		}
+		if(global.selectedUnit == global.units[|0]){
+			obj_battle_text.text_current = 1;
+		} else {
+			obj_battle_text.text_current = 7;
+		}
+		
 		if(!allow_input){
 			allow_input = true;
 			event_user(1);
