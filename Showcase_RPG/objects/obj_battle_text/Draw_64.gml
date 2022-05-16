@@ -13,4 +13,4 @@ if(char_current < _len){
 }
 
 var _str = string_copy(text[text_current], 1, char_current);
-draw_text(text_x, text_y, _str);
+draw_text_transformed(text_x, text_y, _str, 1, 1, 0);

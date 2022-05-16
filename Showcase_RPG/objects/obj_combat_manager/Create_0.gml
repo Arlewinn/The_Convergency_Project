@@ -26,3 +26,6 @@ global.targets = ds_list_create();
 
 battle_ui = layer_get_id("BattleUI");
 target_ui = layer_get_id("TargetUI");
+
+if instance_exists(obj_player) {obj_player.visible = false;}
+

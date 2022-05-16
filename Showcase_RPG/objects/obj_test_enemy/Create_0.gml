@@ -3,4 +3,4 @@
 
 // Inherit the parent event
 event_inherited();
-
+name = str("emy_dgn_monster");

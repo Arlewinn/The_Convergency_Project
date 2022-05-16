@@ -73,7 +73,7 @@ if(room != rm_battle){
 	y += yspd;
 
 	var rng = irandom(steps);
-	if (rng = steps && steps < 800 && !instance_exists(obj_warp) && room != rm_labratory && room != rm_battle && room != rm_storage_room) {
+	if (rng = steps && steps < 800 && !instance_exists(obj_warp) && room != rm_labratory && room != rm_battle && room != rm_storage_room && !instance_exists(obj_pauser)) {
 	
 		var inst = instance_create_depth(0, 0, -999, obj_warp);
 		inst.target_x = x;

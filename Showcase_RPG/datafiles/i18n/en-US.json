@@ -128,5 +128,7 @@
     "dialog_bed_jounal4": "I'll make a note here so I remember to go back to check tomorrow.",
     "dialog_cafe_journal1": "Journal Entry: I got locked out of the Command Center. I can't bear to tell everyone I lost my key again.",
     "dialog_cafe_journal2": "I'll need to sneak back into the reactor to try to find it later.",
-    "dialog_stroageKey": "It looks like someone had slipped it between the pages of this book."
+    "dialog_stroageKey": "It looks like someone had slipped it between the pages of this book.",
+
+    "emy_dgn_monster": "Dungeon Monster"
 }

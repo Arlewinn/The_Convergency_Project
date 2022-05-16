@@ -10,6 +10,8 @@
 //#macro DEF 4
 //#macro ACC 5
 
+name = "Enemy";
+
 base[HP] = 10;
 base[ATK] = 2;
 base[SPD] = irandom_range(1, 10);
@@ -36,6 +38,7 @@ incoming_damage = 0;
 hp_bar_width = sprite_get_width(spr_ui_hp);
 hp_bar_height = sprite_get_height(spr_ui_hp);
 draw_target = false;
+
 function damage_unit(attack){
 	var damage = attack;
 	//var damage = attack - current[@DEF];
