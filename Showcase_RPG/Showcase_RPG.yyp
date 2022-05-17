@@ -210,6 +210,7 @@
     {"CopyToMask":-1,"filePath":"datafiles/i18n","resourceVersion":"1.0","name":".DS_Store","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles/i18n","resourceVersion":"1.0","name":"ja-JP.json","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles/i18n","resourceVersion":"1.0","name":"zh-TW.json","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles/i18n","resourceVersion":"1.0","name":"fr-FR.json","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
     "IDEVersion": "2022.3.0.625",
