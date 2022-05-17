@@ -20,7 +20,7 @@ if left_key{
 	if menu_level == 1 && pos == 3{
 		if lang_num == 0 
 		{
-			lang_num = 3;
+			lang_num = 4;
 		}
 		else {lang_num --}
 		option[1, 3] = lang[lang_num];
@@ -31,7 +31,7 @@ if left_key{
 if right_key{
 	//show_debug_message("right");
 	if menu_level == 1 && pos == 3{
-		if lang_num == 3 
+		if lang_num == 4 
 		{
 			lang_num = 0
 		}
@@ -119,6 +119,19 @@ if acc_key {
 							if room == rm_title_test {menu_level = 0}
 							else {instance_destroy()}
 							break;
+						case 4:
+						if obj_polyglot._currLocale != "zh-TW"
+						{
+							change_lang("zh-TW");
+							//obj_polyglot.setLocale("zh=TW");
+							if room == rm_title_test {menu_level = 0}
+							else {instance_destroy()}
+							break;
+						}
+						if room == rm_title_test {menu_level = 0}
+						else {instance_destroy()}
+						break;
+							
 					}
 					break;
 			

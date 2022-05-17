@@ -95,7 +95,6 @@ if(room != rm_battle){
 		steps -= 1;
 	}
 	
-	show_debug_message(steps);
 	//animeate
 	if xspd == 0 && yspd == 0
 		{

@@ -13,3 +13,4 @@ str("dialog_ComputerTerminal5-12"),
 str("dialog_ComputerTerminal5-14")
 ]
 text_scale = 0.33;
+text_break_point = 28;

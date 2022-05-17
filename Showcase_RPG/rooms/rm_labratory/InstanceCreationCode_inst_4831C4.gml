@@ -9,3 +9,4 @@ str("dialog_ComputerTerminal4-8"),
 str("dialog_ComputerTerminal4-9")
 ]
 text_scale = 0.33;
+text_break_point = 28;

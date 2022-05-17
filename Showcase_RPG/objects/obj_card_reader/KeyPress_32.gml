@@ -13,16 +13,16 @@ if !instance_exists(obj_pauser){
 					//show_debug_message("hooii");
 					if (locked == true)
 					{
-						display_message([str("msg_door_unlocked")], false);
+						display_message_wrap([str("msg_door_unlocked")], false);
 						locked = false;
 					}
 					else 
 					{
-						display_message([str("msg_door_locked")], false);
+						display_message_wrap([str("msg_door_locked")], false);
 						locked = true;
 					}
 				}
-				else if (door_ID == other.targetDoor_ID) && hasKey == false {display_message([str("msg_keycard-not-accepted")], false);}
+				else if (door_ID == other.targetDoor_ID) && hasKey == false {display_message_wrap([str("msg_keycard-not-accepted")], false);}
 			}
 		}
 }

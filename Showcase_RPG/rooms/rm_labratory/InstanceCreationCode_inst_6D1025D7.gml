@@ -6,3 +6,4 @@ str("dialog_ComputerTerminal2-5"),
 str("dialog_ComputerTerminal2-6")
 ]
 text_scale = 0.33;
+text_break_point = 28;

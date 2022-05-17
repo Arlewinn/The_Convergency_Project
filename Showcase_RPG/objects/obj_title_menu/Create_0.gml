@@ -8,7 +8,7 @@ pos = 0;
 
 text_scale = 0.5;
 
-font = fnt_menu;
+font = fnt_menu_international;
 
 depth = -9999;
 
@@ -20,12 +20,13 @@ option[0, 2] = str("start_quit");
 if room != rm_title_test {option[0, 0] = str("start_resume")}
 
 //settings
-lang = ["< English >", "Français", "< 日本語 >", "< 한국어 >"];
+lang = ["< English >", "< Français >", "< 日本語 >", "< 한국어 >", "< 繁體中文 >"];
 lang_num = 0;
 if obj_polyglot._currLocale == "en-US" {lang_num = 0}
 if obj_polyglot._currLocale == "fr-FR" {lang_num = 1}
 if obj_polyglot._currLocale == "ja-JP" {lang_num = 2}
 if obj_polyglot._currLocale == "ko-KR" {lang_num = 3}
+if obj_polyglot._currLocale == "zh-TW" {lang_num = 4}
 
 
 option[1, 0] = str("settings_windowSize");
@@ -39,3 +40,11 @@ menu_level = 0;
 
 monster_move_speed = 0;
 if instance_exists(obj_monster) {monster_move_speed = obj_monster.move_spd}
+
+/*if instance_exists(obj_polyglot)
+{
+	if obj_polyglot._currLocale == "ja-JP"
+	{
+		font = fnt_menu_ccjk;
+	}
+}*/
