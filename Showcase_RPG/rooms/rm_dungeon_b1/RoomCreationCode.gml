@@ -1,0 +1,1 @@
+obj_player.step_count = 1000;

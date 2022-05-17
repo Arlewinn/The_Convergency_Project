@@ -36,6 +36,16 @@ if(room != rm_battle){
 
 	xspd = (right_key - left_key) * move_spd;
 	yspd = (down_key - up_key) * move_spd;
+	
+	//collisions code
+	if place_meeting(x + xspd, y, obj_testWall) || place_meeting(x + xspd, y, obj_door)
+		{
+		xspd = 0;
+		}
+	if place_meeting(x, y + yspd, obj_testWall) || place_meeting(x, y + yspd, obj_door)
+		{
+		yspd = 0;
+		}
 
 	//set sprite
 	mask_index = sprite[DOWN];
@@ -55,25 +65,24 @@ if(room != rm_battle){
 
 	if yspd > 0 && face == UP {face = DOWN}
 	if yspd < 0 && face == DOWN {face = UP}
+	
+	if xspd == 0 && yspd == 0 && !instance_exists(obj_pauser)
+		{
+			if left_key {face = LEFT}
+			if right_key {face = RIGHT}
+			if up_key {face = UP}
+			if down_key {face = DOWN}
+		
+		}
 
 	sprite_index = sprite[face];
-
-	//collisions code
-	if place_meeting(x + xspd, y, obj_testWall) || place_meeting(x + xspd, y, obj_door)
-		{
-		xspd = 0;
-		}
-	if place_meeting(x, y + yspd, obj_testWall) || place_meeting(x, y + yspd, obj_door)
-		{
-		yspd = 0;
-		}
 	
 
 	x += xspd;
 	y += yspd;
 
 	var rng = irandom(steps);
-	if (rng = steps && steps < 800 && !instance_exists(obj_warp) && room != rm_labratory && room != rm_battle && room != rm_storage_room && !instance_exists(obj_pauser)) {
+	if (rng = steps && steps < 800 && !instance_exists(obj_warp) && room != rm_labratory && room != rm_battle && room != rm_storage_room && room != rm_thankYou  && !instance_exists(obj_pauser)) {
 	
 		var inst = instance_create_depth(0, 0, -999, obj_warp);
 		inst.target_x = x;
@@ -81,9 +90,12 @@ if(room != rm_battle){
 		inst.target_rm = rm_battle;
 		inst.target_face = DOWN;
 		steps = 1000;
-	} else {
+	} 
+	else if xspd != 0 || yspd != 0{
 		steps -= 1;
 	}
+	
+	show_debug_message(steps);
 	//animeate
 	if xspd == 0 && yspd == 0
 		{
