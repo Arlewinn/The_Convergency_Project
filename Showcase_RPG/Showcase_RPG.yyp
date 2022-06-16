@@ -156,6 +156,7 @@
     {"name":"Windows","path":"options/windows/options_windows.yy",},
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
     {"name":"macOS","path":"options/mac/options_mac.yy",},
+    {"name":"Linux","path":"options/linux/options_linux.yy",},
   ],
   "defaultScriptType": 1,
   "isEcma": false,
@@ -164,9 +165,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_storage_room","path":"rooms/rm_storage_room/rm_storage_room.yy",},},
     {"roomId":{"name":"rm_title_test","path":"rooms/rm_title_test/rm_title_test.yy",},},
     {"roomId":{"name":"rm_labratory","path":"rooms/rm_labratory/rm_labratory.yy",},},
-    {"roomId":{"name":"rm_storage_room","path":"rooms/rm_storage_room/rm_storage_room.yy",},},
     {"roomId":{"name":"rm_dungeon_b1","path":"rooms/rm_dungeon_b1/rm_dungeon_b1.yy",},},
     {"roomId":{"name":"rm_dungeon_b2","path":"rooms/rm_dungeon_b2/rm_dungeon_b2.yy",},},
     {"roomId":{"name":"rm_thankYou","path":"rooms/rm_thankYou/rm_thankYou.yy",},},
